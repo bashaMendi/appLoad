@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './components/lyaout/Header';
+import AppRouters from './components/routers/AppRouters';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <AppRouters/>
     </div>
   );
 }
